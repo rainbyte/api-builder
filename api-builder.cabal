@@ -46,7 +46,7 @@ library
     transformers >= 0.4 && < 0.5
   if !impl(ghcjs)
       build-depends:
-        http-client >= 0.4.11 && < 0.4.28,
+        http-client >= 0.4.11 && < 0.5,
         http-client-tls >= 0.2 && < 0.3
   if impl(ghcjs)
       build-depends:
